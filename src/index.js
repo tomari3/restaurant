@@ -66,7 +66,7 @@ import order from "./order";
     );
     const githubLink = elFactory(
       "a",
-      { href: "#", class: "footer-link" },
+      { href: "https://github.com/tomari3/restaurant", class: "footer-link" },
       "Github"
     );
     const inspoLink = elFactory(

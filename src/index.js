@@ -91,7 +91,7 @@ import order from "./order";
   }
 
   let contentDiv = elFactory("div", { id: "page" });
-  contentDiv.append(pages.current[3]);
+  contentDiv.append(pages.current[0]);
 
   let mainDiv = elFactory("div", { id: "content" });
   mainDiv.append(header(), contentDiv, footer());

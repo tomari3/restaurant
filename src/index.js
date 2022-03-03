@@ -77,8 +77,11 @@ import order from "./order";
 
     const credit = elFactory(
       "a",
-      { class: "footer-link" },
-      "images from unsplash link in README"
+      {
+        href: "https://github.com/tomari3/restaurant/blob/main/README.md",
+        class: "footer-link",
+      },
+      "images from unsplash links in README"
     );
     const footer = elFactory("footer", {});
 
